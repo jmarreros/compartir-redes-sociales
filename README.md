@@ -2,7 +2,7 @@
 
 Crea botones de redes sociales en WordPress sin necesidad de plugins.
 
-**Requiere :** Font-Awesome para mostrar los iconos
+**Opcional :** Font-Awesome para mostrar los iconos
 
 **Soporta :** Facebook, Twitter, Google +, linkedIn , WhatsApp
 
