@@ -1,0 +1,78 @@
+
+.dc-link:hover,.dc-link:active {
+    color: white;
+}
+ 
+.dc-twitter {
+    background: #00aced;
+}
+
+.dc-twitter:hover,.dc-twitter:active {
+    background: #0084b4;
+}
+ 
+.dc-facebook {
+    background: #3B5997;
+}
+ 
+.dc-facebook:hover,.dc-facebook:active {
+    background: #2d4372;
+}
+ 
+.dc-googleplus {
+    background: #D64937;
+}
+ 
+.dc-googleplus:hover,.dc-googleplus:active {
+    background: #b53525;
+}
+ 
+
+.dc-whatsapp {
+    background: #43d854;
+}
+ 
+.dc-whatsapp:hover,.dc-whatsapp:active {
+    background: #009688;
+}
+
+.dc-linkedin {
+    background: #0074A1;
+}
+ 
+.dc-linkedin:hover,.dc-linkedin:active {
+    background: #006288;
+}
+
+ 
+.dc-social {
+	font-family: Helvetica;
+	font-size:1.6rem;
+	// color:$gris-oscuro;
+    margin-bottom: 20px;
+    text-align: center;
+    p{
+    	margin-bottom: 8px;
+    }
+    .dc-link {
+	    color: white!important;
+	    font-size: 1.4rem;
+	    padding: 10px 15px;
+	    border-radius: 2px;
+	    margin-right: 2px;
+	    margin-top: 2px;
+	    cursor: pointer;
+	    display: inline-block;
+	 	border-bottom:none;
+	 	i{
+	 		font-size: 1.6rem;
+	 	}
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+    .dc-whatsapp {
+	display: none!important;
+    }
+}
