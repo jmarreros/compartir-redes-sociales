@@ -4,7 +4,7 @@
 function dc_social_sharing_buttons($content) 
 {
 	if( is_single() )
-	{
+	{	
 		$plantilla		='
 		 <a class="dc-link dc-twitter" href="{twitter}" target="_blank"><i class="fa fa-twitter"></i> Twittear</a>'.
 		'<a class="dc-link dc-facebook" href="{facebook}" target="_blank"><i class="fa fa-facebook"></i> Compartir</a>'.
@@ -12,6 +12,7 @@ function dc_social_sharing_buttons($content)
 		'<a class="dc-link dc-linkedin" href="{linkedin}" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>'.
 		'<a class="dc-link dc-whatsapp" href="{whatsapp}" target="_blank"><i class="fa fa-whatsapp"></i> WhatsApp</a>';
 
+		$cad			='';
 		$urlArticulo 	= urlencode(get_permalink());
  		$titleArticulo 	= str_replace( ' ', '%20', get_the_title());
 
@@ -42,3 +43,4 @@ function dc_social_sharing_buttons($content)
 };
 
 add_filter( 'the_content', 'dc_social_sharing_buttons',0);
+
