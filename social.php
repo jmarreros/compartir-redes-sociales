@@ -30,8 +30,8 @@ function dc_social_sharing_buttons($content)
 		$cad	.=  str_replace($ar_buscar, $ar_reemplazar, $plantilla);
 		$cad	.= '</div>';
 
-		$content = $cad.$content;
-		$content .= $cad;
+		$content = $cad.$content; //iconos superiores
+		$content .= $cad; //iconos inferiores
 
 		return $content;
 	}
