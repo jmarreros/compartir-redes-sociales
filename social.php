@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 function dc_social_sharing_buttons($content) 
 {
 	if( is_single() )
