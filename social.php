@@ -19,7 +19,7 @@ function dc_social_sharing_buttons($content)
 		$twitterURL	= 'https://twitter.com/intent/tweet?text='.$titleArticulo.'&amp;url='.$urlArticulo.'&amp;via=DecodeCMS';
 		$facebookURL= 'https://www.facebook.com/sharer/sharer.php?u='.$urlArticulo;
 		$googleURL 	= 'https://plus.google.com/share?url='.$urlArticulo;
-		$whatsappURL= 'whatsapp://send?text='.$titleArticulo . ' ' . $urlArticulo;
+		$whatsappURL= 'https://wa.me/?text='.$titleArticulo . ' ' . $urlArticulo;
 		$linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$urlArticulo.'&amp;title='.$titleArticulo;
  
 		$ar_buscar 		= array('{twitter}','{facebook}','{google}','{linkedin}','{whatsapp}');
